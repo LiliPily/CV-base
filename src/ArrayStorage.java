@@ -15,7 +15,7 @@ import java.util.Arrays;
 
         }
 
-        void save(Resume r) {
+        void save(Resume r){
             if (size < 10000) storage[size++] = r;
         }
 
